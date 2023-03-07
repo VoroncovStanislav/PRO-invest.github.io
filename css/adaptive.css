@@ -1,0 +1,957 @@
+@media (min-width:1587px) {
+    .services{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .services_item p{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 20px;
+    }
+    .advantages_item1 div{
+        text-align: center;
+        min-width: 33%;
+        display:inline-block;
+        padding-top: 20px;
+    }
+    .advantages_item p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .forma_{
+        background-color: #002e45;
+    }
+    .forma_with_select_item {
+        text-align: center;
+    }
+    
+    .forma_with_select_item h3 {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    
+    .forma_with_select_item h3[class="mp"]{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+    
+    .forma_with_select_item button{
+        text-align: center;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    } 
+    .zayavka{
+        margin-left: 500px;
+        margin-right: 500px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color:white;
+        z-index: 999999;
+    }
+    .rabota{
+        margin-top: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 15px;
+        background-color:white;
+        opacity: 0.8;
+    }
+    .forma_with_select_item button{
+        text-align: center;
+        width: 250px;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .discount_item{
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 15px;
+        background-color:white;
+        opacity: 0.8;
+    }
+    .discount_item__1{
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 15px;
+        background-color:white;
+        opacity: 0.8;
+    }
+    .discount_item p{
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 20px; 
+    }
+    .cian div{
+        margin-top: -10px;
+    }
+    .cian_item {
+        margin-top: 20px; 
+        padding: 20px;
+        overflow:hidden;
+        text-align: center; 
+    }
+    
+    
+    .cian_item h1 {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 36px;
+    }
+    
+    
+    .cian_item a[class="vk"]{
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+        background: #0077ff;
+    }
+    
+    .cian_item a[class="tg"]{
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+        background: #0088cc;
+    }
+
+    .investors img{
+        width: 100vh;
+        display: inline-block;
+    }
+    .rightPart{
+        width: 50%;
+    }
+}
+@media (min-width: 1155px) {
+    .investors img{
+        width: 56%;
+        height: 62ch;
+        padding-left: 30px;
+        display: inline-block;
+    }
+    .forma_with_select_item button{
+        text-align: center;
+        width: 250px;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .rightPart{
+        width: 50%;
+        height: 100%;
+        background-color: #1C3246;
+        background-size: 100%;
+    }
+
+    .rabota{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+@media (max-width: 1155px) {
+    .navbar__wrap .menu{
+        display: none;
+    }
+    .hamb {
+        display: flex;
+        align-items: center;
+    }
+    .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #fff;
+        transition: 0.2s;
+    }
+    .popup {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+    }
+    .popup.open {
+        left: 0;
+    }
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px 0;
+        overflow: auto;
+    }
+    .popup .menu > li {
+        width: 100%;
+    }
+    .popup .menu > li > a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    .popup .menu > li > a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    body.noscroll {
+        overflow: hidden;
+    }
+    .title_container h1{
+        font-size: 36px;
+        padding-top: 40px;
+    }
+    .title_container p{
+        padding-top: 20px;
+    }
+    .btn{
+        width: 325px;
+        height: 50px;
+        color: white;
+        text-align: center;
+        text-decoration: solid;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        font-size: 22px;
+        cursor: pointer;
+        margin: 20px 14px 0px 14px;
+    }
+    .services{
+        margin-top: 40px;
+        margin-left: 14px;
+        margin-right: 14px;
+        height: 100%;
+        border-radius: 15px;
+        background-color:azure;
+        opacity: 0.9;
+        overflow:hidden;
+    }
+    
+    .services_item div{
+        text-align: center;
+        display:inline-block;
+        min-width: 100%;
+        padding-top: 20px;
+    }
+    
+    .services_item img{
+        text-align: center;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .services_item h3{
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .services_item p{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 14px;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    .advantages_title h1{
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 50px;
+    }
+    .advantages_items{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .advantages_item1 div{
+        text-align: center;
+        min-width: 100%;
+        display:inline-block;
+        padding-top: 20px;
+    }
+    
+    .advantages_item img{
+        text-align: center;
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    
+    .advantages_item p{
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .advantages_chart img{
+        width: 90%;
+    }
+
+    .investors_title h1{
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 50px;
+    }
+
+    .list3a {
+        padding-top: 10px;
+        display: inline-block;
+        margin-left: 0;
+        list-style: none;
+        counter-reset: li;
+        width: 100%;
+    }  
+
+    .investors img{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .forma_{
+        background-color: #002e45;
+    }
+    .forma_with_select_item {
+        text-align: center;
+    }
+    
+    .forma_with_select_item h3 {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    
+    .forma_with_select_item h3[class="mp"]{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+    
+    .forma_with_select_item button{
+        text-align: center;
+        width: 250px;
+        /* height: 50px; */
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    } 
+    .zayavka{
+        margin-left: 14px;
+        margin-right: 14px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color:white;
+        z-index: 999999;
+    }
+
+    .discount_title {
+        padding-top: 80px;
+        margin-top: 60px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .discount_item{
+        margin-top: 20px;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 15px;
+        background-color:white;
+        opacity: 0.8;
+    }
+    .discount_item_1{
+        border-right: 1px solid gray;
+    }
+    
+    .discount_item div{
+        text-align: center;
+        display:inline-block;
+        min-width: 100%;
+        padding-top: 20px;
+    }
+
+    .discount_item__1{
+        margin-top: 20px;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 15px;
+        background-color:white;
+        opacity: 0.8;
+    }
+    .rabota{
+        margin-top: 50px;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 15px;
+        background-color:white;
+        opacity: 0.8;
+    }
+    .discount_item_1{
+        border-right: 1px solid gray;
+    }
+    
+    .discount_item__1 div{
+        text-align: center;
+        display:inline-block;
+        min-width: 100%;
+        padding-top: 20px;
+    }
+
+    /* .banki p{
+        margin-left: 50px;
+        margin-right: 50px;
+    } */
+
+    .route_title h1{
+        font-size: 26px;
+    }
+
+    .route_item div{
+        min-width: 100%;
+    }
+
+    .partners_title h1{
+        font-size: 26px;
+    }
+
+    .partners_text{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .Parts{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftPart{
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #1C3246;  
+    }
+
+    
+
+    .form_inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+    }
+
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form_inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form_inputs input{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: rgba(210, 214, 220, 0.93);
+        font-size: 16px;
+        padding-left: 15px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 15px;
+        width: 60%;
+        height: 40px;
+        
+    }
+    
+    .form_inputs textarea{
+        margin-top: 15px;
+        background: rgba(210, 214, 220, 0.93);
+        width: 60%;
+        height: 60px;
+        resize: none;
+        padding-top: 10px;
+        padding-left: 15px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .contact_form p{
+        font-size: 14px;
+    }
+    
+    .contact_form input[type="submit"]{
+        text-align: center;
+        width: 40%;
+        height: 50px;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 28px;
+        cursor: pointer;
+        margin: 20px 14px 0px 14px;
+        margin-bottom: 20px;
+    }
+
+    .rightPart{
+        order: 2;
+        width: 100%;
+        height: 100%;
+        background-color: #1C3246;
+        background-size: cover;
+    }
+
+}
+@media (max-width: 767px) {
+    
+    .telefon{
+        font-size: 16px;
+    }
+    a.logo{
+        display: none;
+    }
+    .navbar__wrap .menu {
+        display: none;
+    }
+    .hamb {
+        display: flex;
+        align-items: center;
+    }
+    .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #fff;
+        transition: 0.2s;
+    }
+    .popup {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+    }
+    .popup.open {
+        left: 0;
+    }
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px 0;
+        overflow: auto;
+    }
+    .popup .menu > li {
+        width: 100%;
+    }
+    .popup .menu > li > a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    .popup .menu > li > a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    body.noscroll {
+        overflow: hidden;
+    }
+    .title_container h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title_container p{
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .services{
+        margin-top: 40px;
+        margin-left: 14px;
+        margin-right: 14px;
+        height: 100%;
+        border-radius: 15px;
+        background-color:azure;
+        opacity: 0.9;
+        overflow:hidden;
+    
+    }
+    
+    .services_item div{
+        text-align: center;
+        display:inline-block;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+    
+    .services_item img{
+        text-align: center;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .services_item h3{
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .services_item p{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 14px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .advantages_title h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .advantages_items{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .advantages_item1 div{
+        text-align: center;
+        min-width: 100%;
+        display:inline-block;
+        padding-top: 20px;
+    }
+    
+    .advantages_item img{
+        text-align: center;
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    
+    .advantages_item p{
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .investors img{
+        width: 95%;
+    }
+    /* .banki img{
+        padding: 15px;
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+    } */
+    .forma_{
+        background-color: #002e45;
+    }
+    .forma_with_select_item {
+        text-align: center;
+    }
+    
+    .forma_with_select_item h3 {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    
+    .forma_with_select_item h3[class="mp"]{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+    
+    .forma_with_select_item button{
+        text-align: center;
+        width: 250px;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    } 
+
+    /* .banki p{
+        margin-left: 1px;
+        margin-right: 1px;
+    } */
+
+    .zayavka{
+        margin-left: 14px;
+        margin-right: 14px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color:white;
+        z-index: 999999;
+    }
+    .zayavka button{
+        text-align: center;
+        width: 50%;
+        height: 60px;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    } 
+
+    .forma_with_select_item button{
+        text-align: center;
+        width: 50%;
+        height: 60px;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    } 
+
+    .banki{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .discount_title h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .route_title h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .partners_title h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .partners div{
+        margin-bottom: -10px;
+    }
+    .partners_text{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .leftPart{
+        /* float: left; */
+        width: 100%;
+        height: 100%;
+        background-color: #1C3246;  
+    }
+
+    .rightPart{
+        float: left;
+        width: 100%;
+        height: 100%;
+        background-color: #1C3246;
+        background-size: 100%;
+    }
+    
+
+    .form_inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+    }
+    
+    .form_title h2{
+        text-align: center;
+        font-size: 16px;
+        color: black;
+    }
+
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form_inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form_inputs input{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: rgba(210, 214, 220, 0.93);
+        font-size: 16px;
+        padding-left: 15px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 15px;
+        width: 80%;
+        height: 40px;
+        
+    }
+    
+    .form_inputs textarea{
+        margin-top: 15px;
+        background: rgba(210, 214, 220, 0.93);
+        width: 80%;
+        height: 80px;
+        resize: none;
+        padding-top: 10px;
+        padding-left: 15px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .contact_form p{
+        font-size: 14px;
+    }
+    
+    .contact_form input[type="submit"]{
+        text-align: center;
+        width: 60%;
+        height: 50px;
+        text-align: center;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        font-size: 28px;
+        cursor: pointer;
+        margin: 20px 14px 0px 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .rightPart{
+        float: left;
+        width: 100%;
+        height: 100%;
+        background-color: #1C3246;
+        background-size: 100% 100%;
+    }
+}

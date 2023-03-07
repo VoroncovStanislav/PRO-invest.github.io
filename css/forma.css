@@ -1,0 +1,96 @@
+.contact_form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_inputs1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_inputs1 input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: rgba(210, 214, 220, 0.93);
+    font-size: 16px;
+    padding-left: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px;
+    width: 450px;
+    height: 40px;
+}
+
+.form_inputs1 textarea{
+    margin-top: 15px;
+    background: rgba(210, 214, 220, 0.93);
+    width: 450px;
+    height: 60px;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* .contact_form1 input[type="checkbox"]{
+    margin-left: -130px;
+    width: 15px;
+    height: 15px;
+} */
+
+/* .contact_form1 p{
+    font-size: 14px;
+} */
+
+.contact_form1 input[type="submit"]{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #43d854;
+    background-color: #43d854;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 14px 0px 14px;
+    margin-bottom: 20px;
+}
+
+.dlg-modal h3{
+    font-size: 16px;
+    color: #666;
+    font-style: oblique;
+}
+
+.btn, .closer, .overlay { -webkit-transition: all 0.2s; transition: all 0.2s; }
+
+.overlay { opacity: 0; visibility: hidden; position:fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 5; background: rgba(0,0,0,0.87); }
+.dlg-modal { width: 100%; max-width: 570px; height: 435px; opacity: 0; visibility: hidden; text-align: center; position: fixed; left: 50%; z-index: 10; padding: 35px 36px; background: #fff; border-radius: 10px; -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.85); box-shadow: 0 0 20px rgba(0,0,0,0.85); }
+.dlg-modal-fade { top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.closer { width: 40px; height: 40px; display: block; position: absolute; right: 10px; top: 10px; background: url('../img/cross.png') no-repeat; cursor: pointer; }
+.closer:hover { -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+
+.fadeIn { -webkit-animation-duration: 0.4s; animation-duration: 0.4s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+.fadeOut{-webkit-animation-duration: 0.01s; animation-duration: 0.01s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+@keyframes fadeIn { 
+	from { opacity: 0; visibility: hidden; }
+	to { opacity:1; visibility: visible; }
+}
+.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; opacity: 1; visibility: visible; }
+
+@keyframes fadeOut { 
+	from { opacity: 1; visibility: visible; }
+	to { opacity:0; visibility: hidden; }
+}
+.fadeOut { -webkit-animation-name: fadeOut; animation-name: fadeOut; opacity: 0; visibility: hidden; }
+

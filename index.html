@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Инвеcтиции в недвижимость краснодарского края">
+      <meta name="author" content="Stanislav Voroncov">
+      <meta name="Copyright" content="Stanislav Voroncov">
+      <meta name="robots" content="all">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="keywords" content="Недвижимость, Краснодарский край, Инвестиции, Новостройки, Инвестирование в недвижимость">
+      <!-- локализация сайта, для русскоязычного сайта ru_RU -->
+      <meta property="og:locale" content="ru_RU">
+      <!-- тип контента, по умолчанию используется article -->
+      <meta property="og:type" content="article">
+      <!-- заголовок страницы, который будет выводится в записи социальной сети -->
+      <meta property="og:title" content="Инвеcтиции в недвижимость краснодарского края">
+      <!-- описание страницы -->
+      <meta property="og:description" content="Новостройки комфорт и бизнес класса">
+      <!-- ссылка на текущую страницу -->
+      <meta property="og:url" content="">
+      <!-- название сайта -->
+      <meta property="og:site_name" content="PRO-инвест">
+      <!-- Тип карты, по умолчанию используется summary -->
+      <meta name="twitter:card" content="summary">
+      <!-- Имя/логин автора -->
+      <meta name="twitter:site" content="Stanislav">
+      <!-- Название страницы -->
+      <meta name="twitter:title" content="PRO-инвест">
+      <!-- Описание страницы -->
+      <meta name="twitter:description" content="Новостройки комфорт и бизнес класса">
+      <title>PRO-инвест</title>
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/myAnimations.css">
+      <link rel="stylesheet" href="./css/adaptive.css">
+      <link rel="stylesheet" href="./css/forma.css">
+
+    </head>
+  <body>
+    <div class="overlay" data-close=""></div>
+    <div id="modal_1" class="dlg-modal dlg-modal-fade">
+		  <span class="closer" data-close=""></span>
+		  <h1>ПОЛУЧИТЕ КОНСУЛЬТАЦИЮ ОТ НАШЕГО СПЕЦИАЛИСТА</h1>
+		  <form class= "contact_form" action="" method="post" name="contact_form">
+			  <div class="form_inputs">
+				  <input type="text" id="name" name="name" required placeholder="Ваше имя">
+				  <input class="secondInput" id="phone" type="text" name="phone" required placeholder="Ваш телефон/Email">
+				  <textarea name="question" id="question" cols="40" rows="6" placeholder="Комментарий"></textarea>
+			  </div>
+			  <p><input type="checkbox" name="a" checked value="1417" class="item"> Я согласен(-а) с политикой конфиденциальности</p>
+			  <input type="submit" value="Отправить">
+		  </form>
+	  </div>
+    <div class="overlay" data-close=""></div>
+	  <div id="modal_2" class="dlg-modal dlg-modal-fade">
+		  <span class="closer" data-close=""></span>
+		  <h1>Укажите ваш телефон/Whatsapp</h1>
+      <h3>Для получения подборки</h3>
+		  <form class= "contact_form1" action="" method="post" name="contact_form">
+			  <div class="form_inputs">
+				  <input type="text" id="name" name="name" required placeholder="Ваше имя">
+				  <input class="secondInput" id="telefon" type="text" name="phone" required placeholder="Ваш телефон">
+				  <textarea name="question" id="question" cols="40" rows="6" placeholder="Комментарий"></textarea>
+			  </div>
+			  <p><input type="checkbox" name="a" checked value="1417" class="item"> Я согласен(-а) с политикой конфиденциальности</p>
+			  <input type="submit" value="Отправить">
+		  </form>
+	  </div>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar__wrap">
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <a href="#main" class="logo" id="logo">PRO-инвест</a>
+            <ul class="menu" id="menu">
+              <li><a href="#advantages">Преимущества</a></li>
+              <li><a href="#investors">Инвесторам</a></li>
+              <li><a href="#Ipoteka">Почему мы?</a></li>
+              <li><a href="#partners">Партнеры</a></li>
+              <li><a href="#Contacts">Контакты</a></li>
+            </ul>
+            <a href="#" class="telefon">8-920-090-69-65</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="popup" id="popup"></div>
+    <main>
+      <section class="main" id="main">
+        <div class="title_container">
+          <h1>Инвестируйте в<br>новостройки<br>Краснодарского края</h1>
+          <p>Новостройки комфорт и бизнес класса</p>
+          <div class="flex">
+            <button type="button" class="btn btn-default" data-modal="modal_1">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+          </div>
+        
+        </div>
+        <div class="services">
+          <div class="services_item">
+            <div class="services_item_1">
+              <img src="img/main_1.png" alt="">
+              <h3>ПОДБОР ОБЪЕКТА</h3>
+              <p>Работаем только с проверенными и надёжными застройщиками</p>  
+            </div>
+            <div class="services_item_2">
+              <img src="img/main_2.png" alt="">
+              <h3>СОПРОВОЖДЕНИЕ</h3>
+              <p>Полное юридическое сопровождение для вас бесплатно</p>
+            </div>
+            <div class="services_item_3">
+              <img src="img/main_3.png" alt="">
+              <h3>ЛУЧШИЕ УСЛОВИЯ</h3>
+              <p>Согласуем с застройщиком индивидуальные условия для вас</p>
+            </div>
+            <div class="services_item_4">
+              <img src="img/main_4.png" alt="">
+              <h3>ДИСТАНЦИОННАЯ СДЕЛКА</h3>
+              <p>Онлайн подбор объектов, электронная регистрация сделки</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="advantages_title">
+          <h1>ПРЕИМУЩЕСТВА НЕДВИЖИМОСТИ В КРАСНОДАРСКОМ КРАЕ</h1>
+        </div>
+        <div class="advantages_items">
+          <div class="advantages_item1">
+            <div class="advantages_item">
+              <img src="img/1.png" alt="">
+              <p>Госсударственная поддержка экономики региона</p>  
+            </div>
+            <div class="advantages_item">
+              <img src="img/2.png" alt="">
+              <p>Благоприятный климат для выгодных инвестиций</p>
+            </div>
+            <div class="advantages_item">
+              <img src="img/3.png" alt="">
+              <p>Развитие санаторно-курортного туристического бизнеса</p>
+            </div>
+            <div class="advantages_item">
+              <img src="img/4.png" alt="">
+              <p>Рост городов и создание современной инфраструктуры</p>  
+            </div>
+            <div class="advantages_item">
+              <img src="img/5.png" alt="">
+              <p>Разнообразие предложений на рынке новостроек</p>
+            </div>
+            <div class="advantages_item">
+              <img src="img/6.png" alt="">
+              <p>Высокий уровень доходности на растущем рынке</p>
+            </div>
+          </div>    
+        </div>
+      </section>
+      <section class="investors" id="investors">
+        <div class="investors_title">
+          <h1>СТРАТЕГИИ ДЛЯ ИНВЕСТОРОВ</h1>
+        </div>
+        <div class="investors_sp">
+          <div class="investors_spisok">
+            <ul class="list3a">
+              <li>Покупка на этапе строительства</li>
+              <li>Покупка для перепродажи</li>
+              <li>Покупка для сдачи в аренду</li>
+              <li>Покупка апартаментов с управлением</li>
+              <li>Покупка коммерческой недвижимости</li>
+              <li>Готовый арендный бизнес</li>
+              <li>Соинвестирование проектов</li>
+            </ul>
+            <img src="./img/Без имени-2.png" alt="" >
+          </div>
+        </div>
+      </section>
+      <section class="forma_">
+        <div class="forma_with_select">
+          <div class="forma_with_select_item">
+            <!-- <div class="left_col">
+              <h3>Получите список </h3>
+              <h3>горячих предложений</h3> 
+              <h3>на Whatsapp!</h3>
+            </div>
+            <div class="right_col">
+              <a href="https://wa.me/79200906965" target="_blank"><img src="./img/wtf2.png" alt=""></a>
+            </div> -->
+            <!-- <a href="https://wa.me/79200906965" target="_blank"><img src="./img/wtf2.png" alt=""></a> -->
+            <h3>Получите подборку лучших предложений на Whatsapp!</h3>
+            <!-- <h3 class="mp">Мы поможем!</h3> -->
+            <button type="button" class="btn btn-default" data-modal="modal_2">Whatsapp</button>
+            
+          </div> 
+        </div>
+      </section>
+      <section class="advantages2" id="Ipoteka">
+        <div class="advantages_title">
+          <h1>ПОЧЕМУ МЫ?</h1>
+        </div>
+        <div class="advantages_items">
+          <div class="advantages_item1">
+            <div class="advantages_item">
+              <img src="img/sk_1.png" alt="">
+              <h3>Сĸидĸи от застройщиĸов:</h3>
+              <p>Мы знаем, какие акции/скидки может предложить застройщик и поможем их согласовать для вас</p> 
+            </div>
+            <div class="advantages_item">
+              <img src="img/sk_2.png" alt="">
+              <h3>Комиссия 0₽:</h3>
+              <p>Для наших клиентов мы работаем абсолютно бесплатно, всю работу оплачивает застройщик</p>
+            </div>
+            <div class="advantages_item">
+              <img src="img/sk_3.png" alt="">
+              <h3>Онлайн-сделки:</h3>
+              <p>Проведём все от показа до регистрации сделки онлайн, покупка объекта из вашего города</p>
+            </div>
+            <div class="advantages_item">
+              <img src="img/11.png" alt="">
+              <h3>Мы работаем с нерезидентами:</h3>
+              <p>Осуществляем помощь гражданам дружественных стран приобрести объект быстро и без бюрократических проволочек</p>  
+            </div>
+            <div class="advantages_item">
+              <img src="img/7.png" alt="">
+              <h3>Застройщиĸи Комфорт и бизнес класса:</h3>
+              <p>Мы тщательно выбираем компании высокого уровня, с максимальной надежностью и безупречной репутацией на рынке</p>
+            </div>
+            <div class="advantages_item">
+              <img src="img/9.png" alt="">
+              <h3>Юридическое сопровождение сделки:</h3>
+              <p>Обеспечиваем полное юридическое сопровождение сделки на всех её этапах и помогаем нашим клиентам сэкономить деньги</p>
+            </div>
+          </div>    
+        </div>
+      </section>
+      <!-- <section class="partners" id="partners">
+        <div class="partners_title">
+          <h1>Наши партнеры – проверенные застройщики</h1>
+          <h2>Мы проверяем каждую организацию на достоверность
+            предоставляемой информации. У нас только
+            проверенные застройщики!</h2>
+        </div>
+      </section> -->
+      <section class="Ipoteka" id="partners">
+        <h1>Наши партнёры по ипотеке</h1>
+        <div class="banki">
+          <!-- <a href="https://www.sberbank.com/" target="_blank"><img class="thirdIMG" src="./img/sberbank.png" alt=""/></a>
+          <a href="https://www.vtb.ru/" target="_blank"><img class="thirdIMG" src="./img/vtb.png" alt=""/></a>
+          <a href="https://www.gazprombank.ru/" target="_blank"><img class="thirdIMG" src="./img/gazprombank.png" alt=""/></a> -->
+          <p>Мы являемся партнерами всех крупнейших банков, предлагающих ипотечное кредитование в регионе.</p>
+          <p>Знаем где и как получить лучшие условия по ипотеке</p>
+        </div>
+      </div>
+      <div class="discount_item__1">
+        <div class="discount_item_1">
+          <img src="img/free-icon-approve-sign-8426910.png" alt="">
+          <p>Ипотечные программы с гос.поддержкой от Государства</p>  
+        </div>
+        <div class="discount_item_2">
+          <img src="img/free-icon-approve-sign-8426910.png" alt="">
+          <p>Возможность согласования индивидуальных условий рассрочки</p>
+        </div>
+        <div class="discount_item_3">
+          <img src="img/free-icon-approve-sign-8426910.png" alt="">
+          <p>Субсидированные программы по сниженным ставкам от застройщика</p>
+        </div>
+      </div>
+        
+        <div class="zayavka">
+          <span class="closer" data-close=""></span>
+          <h1>РАССЧИТАЕМ ИПОТЕКУ И ПРОКОНСУЛЬТИРУЕМ</h1>
+          <form class= "contact_form"  method="post" name="contact_form">
+            <div class="form_inputs">
+              <input type="text" id="name" name="name" required placeholder="Ваше имя">
+              <input class="secondInput" id="telefon" type="text" name="phone" required placeholder="Ваш телефон">
+            </div>
+            <input type="submit" value="Отправить">
+          </form>
+        </div>
+        <div class="rabota">
+          <div class="route_title" id="partners">
+            <h1>КАК МЫ РАБОТАЕМ</h1>
+          </div>
+          <div class="route_item">
+            <div class="route_item_1">
+              <h3>1</h3>
+              <h4>Вы оставляете заявку на нашем сайте</h4>
+            </div>
+            <div class="route_item_2">
+              <h3>2</h3>
+              <h4>С вами свяжется наш эксперт по недвижимости</h4>
+            </div>
+            <div class="route_item_3">
+              <h3>3</h3>
+              <h4>Он бесплатно поможет вам подобрать объект</h4>
+            </div>
+            <div class="route_item_4">
+              <h3>4</h3>
+              <h4>При необходимости поможет бесплатно открыть ипотеку</h4>
+            </div>
+            <div class="route_item_5">
+              <h3>5</h3>
+              <h4>Поможем вам провести сделку с застройщиĸом</h4>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="route" id="route">
+        
+      </section>
+      <section class="forma" id="Contacts">
+        <div class="Parts">
+          <div class="rightPart" id="rightPart">
+            <h1>КОНТАКТЫ</h1>
+            <div class="cont">
+              <h4 class="telef">8-920-090-69-65</h4>
+              <a href="https://mail.google.com/" target="_blank"><h4 class="pochta">proinvest@gmail.com</h4></a>
+            </div>
+            <div class="social">
+              <h4>Много трендов и лайфхаков</h4>
+              <h4>в наших соцсетях</h4>
+              <div class="KART">
+                <a href="https://vk.com/vorontcov_invest" target="_blank"><img class="thirdIMG" src="./img/vk.png" alt=""/></a>
+                <a href="https://t.me/vorontcov_invest" target="_blank"><img src="./img/telega.png" alt=""/></a>
+              </div>
+            </div>
+            <div class="PR">
+              <a href="Политика конфиденциальности.docx" download="" target="_blank"><p>Правила конфиденциальности</p></a>
+            </div>
+          </div>
+          <div class="leftPart" id="leftPart">
+            <div class="form_title">
+              <h2 style="color: white;">ПОЛУЧИТЕ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</h2>
+              <p><img src="./img/photo.jpg" alt="" class="round"></p>
+              <h3>Максим Воронцов</h3>
+              <h7>Экперт по недвижимости</h7>
+              <div class="coc">
+                <a class="wtf" href="https://wa.me/79200906965" target="_blank">Whatsapp</a>
+                <a class="tg" href="https://t.me/Maksim_Vorontsov" target="_blank">Telegram</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+  </main>
+  <div class="popup_thx">
+    <div class="overlay_thx"></div>
+    <div class="popup_thx_body">
+      <a class="close_thx">x</a>
+      <h3>Спасибо за заявку!</h3>
+      <p>Мы перезваним Вам в течении 5 минут</p>
+      <a class="back" href="#" onclick="location.reload(); return false;">Вернуться на сайт</a>
+    </div>
+  </div>
+  <script>const typeAnimate = 'fade';</script>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/jquery.maskedinput.min.js"></script>
+  <script src="./js/spin.js"></script>
+  <script src="./js/forma.js"></script>
+  <script src="./js/form.js"></script>
+  <script src="./js/test.js"></script>
+  <script>
+    $(function(){
+      $("#telefon").mask("+7(999)-999-99-99");
+    });
+  </script>
+  <script>
+    $(function() {
+    var height = $( '#rightPart' ).height(); 
+    $( '#leftPart' ).height(height); 
+});
+  </script>
+  <script>
+    $(".close_thx").click(function() {
+    $('.popup_thx').removeClass('active');
+});
+  </script>
+</body>
+</html>
